@@ -1,6 +1,6 @@
 ## Project Name
-Author: Jeff Martinez
-Version: 1.0.0
+- Author: Jeff Martinez
+- Version: 1.0.0
 
 ### Overview
 This application showcases the Factory Method Design Pattern!  It accomplishes this by using the Factory Method attributes to create Resumes. This application will allow you to
@@ -54,11 +54,11 @@ Reference: Mentor
 ```
 
 ### Architecture
-This application is created using ASP.NET Core 2.0 Console applicaitons. 
-Language: C# 
-Type of Applicaiton: Console Application 
+- This application is created using ASP.NET Core 2.0 Console applicaitons. 
+- Language: C# 
+- Type of Applicaiton: Console Application 
 
 ### Change Log
 
-01-04-2018 10:00am - Added structure of the factory method 
-01-04-2018 5:00pm - Added functionality to build resumes 
+- 01-04-2018 10:00am - Added structure of the factory method 
+- 01-04-2018 5:00pm - Added functionality to build resumes 
