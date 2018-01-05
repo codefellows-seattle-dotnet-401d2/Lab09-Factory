@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ResumeBuilder.Classes
 {
-    class Profile : Page
+    public class Profile : Page
     {
     }
 }

@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ResumeBuilder.Classes
 {
-    abstract class Document
+    public abstract class Document
     {
         // List of Products:Pages
         private List<Page> _pages = new List<Page>();

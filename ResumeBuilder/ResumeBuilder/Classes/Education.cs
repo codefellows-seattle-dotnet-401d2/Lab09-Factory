@@ -4,7 +4,11 @@ using System.Text;
 
 namespace ResumeBuilder.Classes
 {
-    class Education : Page
+    public class Education : Page
     {
+        public string SchoolName { get; set; }
+        public string Course { get; set; }
+        public int GraduationMonth { get; set; }
+        public int GraduationYear { get; set; }
     }
 }

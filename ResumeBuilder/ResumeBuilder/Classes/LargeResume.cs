@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ResumeBuilder.Classes
 {
-    class LargeResume : Document
+    public class LargeResume : Document
     {
         public override void CreatePage()
         {
