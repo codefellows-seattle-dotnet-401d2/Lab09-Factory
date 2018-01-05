@@ -1,9 +1,9 @@
 ﻿namespace ResumeBuilder.Classes
 {
-    public enum PageType
+    public enum PageType : int
     {
-        JustAResume,
         TraditionalResume,
-        LargeResume
+        LargeResume,
+        JustAResume
     }
 }

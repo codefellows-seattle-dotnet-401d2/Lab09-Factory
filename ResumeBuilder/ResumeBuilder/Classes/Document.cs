@@ -6,25 +6,32 @@ namespace ResumeBuilder.Classes
 {
     public abstract class Document
     {
-        // List of Products:Pages
+        // List of Pages
         private List<Page> _pages = new List<Page>();
 
-        public Document()
+        public List<Page> Pages => _pages;
+
+        public void AddPage(Page page)
         {
-            CreatePage();
+            _pages.Add(page);
         }
 
         // Factory Method
         public abstract void CreatePage();
 
-        public List<Page> Pages
+        public Document ResumeFactory(PageType pageType)
         {
-            get { return _pages; }
-        }
-
-        public void AddPage(Page page)
-        {
-            _pages.Add(page);
+            switch (pageType)
+            {
+                case PageType.TraditionalResume:
+                   return new TraditionalResume();
+                case PageType.LargeResume:
+                    return new LargeResume();
+                case PageType.JustAResume:
+                    return new JustAResume();
+                default:
+                    return null;
+            }
         }
     }
 }
