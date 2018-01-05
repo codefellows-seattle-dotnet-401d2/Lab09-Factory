@@ -21,5 +21,10 @@ namespace ResumeBuilder.Classes
         {
             get { return _pages; }
         }
+
+        public void AddPage(Page page)
+        {
+            _pages.Add(page);
+        }
     }
 }

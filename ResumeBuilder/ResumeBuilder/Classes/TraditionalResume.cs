@@ -6,11 +6,11 @@ namespace ResumeBuilder.Classes
 {
     class TraditionalResume : Document
     {
-        public override void CreatePage()
+        public override void CreatePage(Profile p, WorkHistory w, Education e)
         {
-            Pages.Add(new Profile());
-            Pages.Add(new WorkHistory());
-            Pages.Add(new Education());
+            Pages.Add(p);
+            Pages.Add(w);
+            Pages.Add(e);
         }
     }
 }
