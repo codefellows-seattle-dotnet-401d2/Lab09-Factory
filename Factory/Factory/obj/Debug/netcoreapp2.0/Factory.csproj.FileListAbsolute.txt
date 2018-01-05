@@ -1,0 +1,8 @@
+C:\Users\nyque\source\repos\Lab09-Factory\Factory\Factory\bin\Debug\netcoreapp2.0\Factory.deps.json
+C:\Users\nyque\source\repos\Lab09-Factory\Factory\Factory\bin\Debug\netcoreapp2.0\Factory.runtimeconfig.json
+C:\Users\nyque\source\repos\Lab09-Factory\Factory\Factory\bin\Debug\netcoreapp2.0\Factory.runtimeconfig.dev.json
+C:\Users\nyque\source\repos\Lab09-Factory\Factory\Factory\bin\Debug\netcoreapp2.0\Factory.dll
+C:\Users\nyque\source\repos\Lab09-Factory\Factory\Factory\obj\Debug\netcoreapp2.0\Factory.csprojResolveAssemblyReference.cache
+C:\Users\nyque\source\repos\Lab09-Factory\Factory\Factory\obj\Debug\netcoreapp2.0\Factory.csproj.CoreCompileInputs.cache
+C:\Users\nyque\source\repos\Lab09-Factory\Factory\Factory\obj\Debug\netcoreapp2.0\Factory.AssemblyInfoInputs.cache
+C:\Users\nyque\source\repos\Lab09-Factory\Factory\Factory\obj\Debug\netcoreapp2.0\Factory.AssemblyInfo.cs
