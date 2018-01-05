@@ -11,6 +11,5 @@ namespace ResumeBuilder.Classes
         public string Country { get; set; }
         public string JobTitle { get; set; }
         public string JobDescription { get; set; }
-        
     }
 }
