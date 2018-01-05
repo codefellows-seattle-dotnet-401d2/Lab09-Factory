@@ -6,6 +6,7 @@ namespace ResumeBuilder.Classes
 {
     abstract class Page
     {
-
+        public string Color { get; set; }
+        public bool Line { get; set; }
     }
 }

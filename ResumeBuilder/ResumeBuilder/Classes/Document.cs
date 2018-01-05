@@ -17,7 +17,7 @@ namespace ResumeBuilder.Classes
         // Factory Method
         public abstract void CreatePage();
 
-        public List<Page> GetPages
+        public List<Page> Pages
         {
             get { return _pages; }
         }
