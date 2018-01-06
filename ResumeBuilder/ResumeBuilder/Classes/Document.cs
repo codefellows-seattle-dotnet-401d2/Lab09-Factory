@@ -6,6 +6,12 @@ namespace ResumeBuilder.Classes
 {
     public abstract class Document
     {
+        public Profile Profile { get; set; }
+        public TechnicalSkills TechnicalSkills { get; set; }
+        public Projects Projects { get; set; }
+        public WorkHistory WorkHistory { get; set; }
+        public Education Education { get; set; }
+
         // List of Pages
         private List<Page> _pages = new List<Page>();
 
