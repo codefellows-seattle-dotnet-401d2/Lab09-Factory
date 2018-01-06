@@ -8,8 +8,8 @@ namespace ResumeBuilder.Classes
     {
         public override void CreatePage()
         {
-            Pages.Add(new Profile());
-            Pages.Add(new WorkHistory());
+            Pages.Add(Profile);
+            Pages.Add(WorkHistory);
         }
     }
 }
