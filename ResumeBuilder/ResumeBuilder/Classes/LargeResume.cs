@@ -8,11 +8,11 @@ namespace ResumeBuilder.Classes
     {
         public override void CreatePage()
         {
-            Pages.Add(new Profile());
-            Pages.Add(new TechnicalSkills());
-            Pages.Add(new Projects());
-            Pages.Add(new WorkHistory());
-            Pages.Add(new Education());
+            Pages.Add(Profile);
+            Pages.Add(TechnicalSkills);
+            Pages.Add(Projects);
+            Pages.Add(WorkHistory);
+            Pages.Add(Education);
         }
     }
 }
