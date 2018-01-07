@@ -6,6 +6,7 @@ namespace ResumeBuilder.Classes
 {
     public class Portfolio : Document
     {
+        public int NumberOfProjects { get; set; }
         public override void CreatePage()
         {
             Pages.Add(Projects);
