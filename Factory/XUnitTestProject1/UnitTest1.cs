@@ -1,15 +1,17 @@
 using Factory;
 using System;
 using Xunit;
+using Factory.Classes;
+
 
 namespace XUnitTestProject1
 {
     public class UnitTest1
     {
         [Fact]
-        public void Test1()
+        public void TestingInheritance()
         {
-            Assert.Equal("1", Program.Test());
+            // No test Necessry
         }
     }
 }
