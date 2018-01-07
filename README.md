@@ -1,48 +1,64 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Lab41-Factory Method Design Pattern
-=====================================
+## Project Name
+- Author: Jeff Martinez
+- Version: 1.0.0
 
-## To Submit this Assignment
-- fork this repository
-- write all of your code in a directory named `lab-#`; + `<your name>` **e.g.** `lab08-amanda`
-- push to your repository
-- submit a pull request to this repository
-- submit a link to your PR in canvas
+### Overview
+This application showcases the Factory Method Design Pattern!  It accomplishes this by using the Factory Method attributes to create Resumes. This application will allow you to
 
-## Directions 
-- Create a new Console Application within Visual Studio 2017.
-- Create a program that uses the Factory Method Design Pattern 
-- This program should consist of a document/resume creation factory.
-- You are creating types of **Documents** that make up a **Resume** or **Report**, that conists of different **Pages** such as **Cover Letter**, **References**, **Work History**, **Summary Page** etc...
-- Identify the following. **In your readme** (hint: i bolded some of the important keywords)
-    1. Product --
-    2. Concrete Product --
-    3. Creator --
-    4. Concrete Creator --
-- In your Program.cs file should clearly show through Console.WriteLines() that your program is functioning as requried.   
+### Getting Started
+***The following is required to run the program:*** 
+Visual Studio 2017
+The .NET desktop development workload enabled
+No External NuGet packages are required for this application.
 
-## ReadMe
-A README is a module consumer's first -- and maybe only -- look into your creation. The consumer wants a module to fulfill their need, so you must explain exactly what need your module fills, and how effectively it does so.
-<br />
-Your job is to
+***To Build this application:*** 
+What are the steps that a user must take in order to build this app on their own machine and get it running?
+1. Define what your Factory is going to look like
+2. Use the design pattern Factory Method to create you factory.  In this case, we are building a Resume factory.
+   Product(Pages)
+   Concrete Products(Work History, Cover Letter, References)
+   Creator(Person)
+   Concrete Creator(Resume)
+3. Create classes out of the seperate items in the Factory Method
+4. Inherit the proper classes to complete the Factory Method structure
+5. Create an instance of the class to build a new resume
 
-1. tell them what it is (with context)
-2. show them what it looks like in action
-3. show them how they use it
-4. tell them any other relevant details
-<br />
 
-This is ***your*** job. It's up to the module creator to prove that their work is a shining gem in the sea of slipshod modules. Since so many developers' eyes will find their way to your README before anything else, quality here is your public-facing measure of your work.
 
-<br /> <br /> Refer to the sample-README in the class repo for an example. 
-- [Reference](https://github.com/noffle/art-of-readme)
+### Example
+```
+RESUME BUILDER W/ FACTORY METHOD
+Cover Letter for Microsoft
 
-## Rubric
-- 7pts: Program meets all requirements described in Lab directions
-- 3pts: Code meets industry standards
+Work History:
+Work Location 1
+Work Location 2
+Work Location 3
 
-- **Readme.md required for submission. Missing readme document and tests will result in a best score of 2/10**
+References:
+Reference: Boss
+Reference: Professor
+Reference: Mentor
 
-## Stretch
-1. Gain 3pts bonus for **each** Design Pattern you succesfully implement in a new problem domain. 
-2. Your Code has to be clearly commented. Make it clear that you are comfortable with the design pattern of choice. 
-2. Need ideas? Let me know, we can brainstorm Problem Domains for other design patterns. 
+Cover Letter for Alaska Airlines
+
+Work History:
+Work Location 1
+Work Location 2
+Work Location 3
+
+References:
+Reference: Boss
+Reference: Professor
+Reference: Mentor
+```
+
+### Architecture
+- This application is created using ASP.NET Core 2.0 Console applicaitons. 
+- Language: C# 
+- Type of Applicaiton: Console Application 
+
+### Change Log
+
+- 01-04-2018 10:00am - Added structure of the factory method 
+- 01-04-2018 5:00pm - Added functionality to build resumes 
