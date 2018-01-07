@@ -56,7 +56,7 @@ namespace ResumeBuilder
 
 
             // Creating a Traditional Resume
-            TraditionalResume traditionalResume = new TraditionalResume
+            Resume traditionalResume = new Resume
             {
                 Profile = profile,
                 WorkHistory = workHistory,

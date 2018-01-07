@@ -18,16 +18,15 @@ namespace ResumeBuilder.Classes
         // Factory Method
         public abstract void CreatePage();
 
+        // Resume factory for the user to pick
         public Document ResumeFactory(PageType pageType)
         {
             switch (pageType)
             {
                 case PageType.TraditionalResume:
-                   return new TraditionalResume();
+                   return new Resume();
                 case PageType.LargeResume:
-                    return new LargeResume();
-                case PageType.JustAResume:
-                    return new JustAResume();
+                    return new Portfolio();
                 default:
                     return null;
             }
