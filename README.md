@@ -13,7 +13,7 @@ This is a simple console application dedicated to create resumes/portfolios usin
 1. Clone the repository to your local machine.
 2. Cd into the application directory where the `AppName.sln` exist.
 3. Open the application using `Open/Start AppName.sln`.
-4. Once Visual Studio is opened, you can Run the application by clicking on the Play button <img src="https://github.com/luayyounus/Lab02-Unit-Testing/blob/Lab02-Luay/WarCardGame/play-button.jpg" width="16"> and the console game will run.
+4. Once Visual Studio is opened, you can Run the application by clicking on the Play button <img src="https://github.com/luayyounus/Lab02-Unit-Testing/blob/Lab02-Luay/WarCardGame/play-button.jpg" width="16">.
 5. A welcome message with instructions will be displayed to teach you how to build the resume - step by step.
 
 ## Diagram
