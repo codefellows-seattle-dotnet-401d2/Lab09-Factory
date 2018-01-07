@@ -1,0 +1,11 @@
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab09-Factory\ResumeBuilder\ResumeBuilder\bin\Debug\netcoreapp2.0\ResumeBuilder.deps.json
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab09-Factory\ResumeBuilder\ResumeBuilder\bin\Debug\netcoreapp2.0\ResumeBuilder.runtimeconfig.json
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab09-Factory\ResumeBuilder\ResumeBuilder\bin\Debug\netcoreapp2.0\ResumeBuilder.runtimeconfig.dev.json
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab09-Factory\ResumeBuilder\ResumeBuilder\bin\Debug\netcoreapp2.0\ResumeBuilder.dll
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab09-Factory\ResumeBuilder\ResumeBuilder\bin\Debug\netcoreapp2.0\ResumeBuilder.pdb
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab09-Factory\ResumeBuilder\ResumeBuilder\obj\Debug\netcoreapp2.0\ResumeBuilder.csprojResolveAssemblyReference.cache
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab09-Factory\ResumeBuilder\ResumeBuilder\obj\Debug\netcoreapp2.0\ResumeBuilder.csproj.CoreCompileInputs.cache
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab09-Factory\ResumeBuilder\ResumeBuilder\obj\Debug\netcoreapp2.0\ResumeBuilder.AssemblyInfoInputs.cache
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab09-Factory\ResumeBuilder\ResumeBuilder\obj\Debug\netcoreapp2.0\ResumeBuilder.AssemblyInfo.cs
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab09-Factory\ResumeBuilder\ResumeBuilder\obj\Debug\netcoreapp2.0\ResumeBuilder.dll
+C:\Users\Luay\Dropbox\401dotNet\Projects\Labs\Lab09-Factory\ResumeBuilder\ResumeBuilder\obj\Debug\netcoreapp2.0\ResumeBuilder.pdb

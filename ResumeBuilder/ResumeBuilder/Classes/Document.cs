@@ -13,14 +13,7 @@ namespace ResumeBuilder.Classes
         public Education Education { get; set; }
 
         // List of Pages
-        private List<Page> _pages = new List<Page>();
-
-        public List<Page> Pages => _pages;
-
-        public void AddPage(Page page)
-        {
-            _pages.Add(page);
-        }
+        public List<Page> Pages = new List<Page>();
 
         // Factory Method
         public abstract void CreatePage();
