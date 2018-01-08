@@ -17,6 +17,16 @@ namespace Product
         {
             PageNum = pageNum;
             JobDuties.Add("Troubleshoot customer Microsoft Intune deployments");
+            JobDuties.Add("Update service requests");
+        }
+
+        public override void Print()
+        {
+            Console.WriteLine($"----- Work History: Page {PageNum} -----");
+            Console.WriteLine(CompanyName + " - " + JobTitle);
+            Console.WriteLine(StartDate.ToString() + " - " + EndDate.ToString());
+            foreach(string duty in JobDuties) Console.WriteLine("- " + duty);
+            Console.WriteLine("");
         }
     }
 }

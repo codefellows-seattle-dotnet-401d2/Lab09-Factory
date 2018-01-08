@@ -17,5 +17,16 @@ namespace Product
         {
             PageNum = pageNum;
         }
+
+        public override void Print()
+        {
+            Console.WriteLine($"----- Summary: Page {PageNum} -----");
+            Console.Write(FullName + " - " + Email);
+            Console.Write(Phone + " - " + Address);
+            Console.WriteLine("");
+            Console.WriteLine(Headline);
+            Console.WriteLine(ShortSummary);
+            Console.WriteLine("");
+        }
     }
 }

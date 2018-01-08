@@ -10,11 +10,21 @@ namespace Product
         public string DegreeLevel { get; set; } = "Bachelor of Science";
         public DateTime GraduationDate { get; set; } = new DateTime(2008, 12, 15);
         public string Major { get; set; } = "Computer Information Systems";
-        public string Minor { get; set; } = "";
+        public string Minor { get; set; } = "N/A";
 
         public Education(int pageNum)
         {
             PageNum = pageNum;
+        }
+
+        public override void Print()
+        {
+            Console.WriteLine($"----- Work History: Page {PageNum} -----");
+            Console.WriteLine(SchoolName + " - " + GraduationDate.ToString());
+            Console.WriteLine(DegreeLevel);
+            Console.WriteLine("Major: " + Major);
+            Console.WriteLine("Minor: " + Minor);
+            Console.WriteLine("");
         }
     }
 }

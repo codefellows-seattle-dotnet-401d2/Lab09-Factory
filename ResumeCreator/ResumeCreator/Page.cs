@@ -11,9 +11,9 @@ namespace Product
         public DateTime DateModified { get; set; } = DateTime.Today;
         public int PageNum { get; set; }
 
-        public void Print()
+        public virtual void Print()
         {
-            Console.WriteLine("Printing page.");
+            Console.WriteLine("Printing page....");
         }
 
         public void Save()

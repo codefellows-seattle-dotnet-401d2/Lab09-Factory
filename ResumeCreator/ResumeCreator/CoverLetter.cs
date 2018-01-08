@@ -14,5 +14,14 @@ namespace Product
         {
             PageNum = pageNum;
         }
+
+        public override void Print()
+        {
+            Console.WriteLine($"----- Cover Letter: Page {PageNum} -----");
+            Console.WriteLine("Dear: " + AddressedTo);
+            Console.WriteLine(BodyText);
+            Console.WriteLine("Very Respectfully, " + Signature);
+            Console.WriteLine("");
+        }
     }
 }

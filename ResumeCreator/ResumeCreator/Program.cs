@@ -8,17 +8,19 @@ namespace ResumeCreator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Testing Factory Design Pattern\n");
 
             ClassicResume myClassic = new ClassicResume();
             ModernResume myModern = new ModernResume();
 
+            Console.WriteLine("Classic Resume:\n");
             foreach (Page page in myClassic.Pages)
             {
                 page.Print();
             }
 
-            foreach(Page page in myModern.Pages)
+            Console.WriteLine("Modern Resume:\n");
+            foreach (Page page in myModern.Pages)
             {
                 page.Print();
             }
