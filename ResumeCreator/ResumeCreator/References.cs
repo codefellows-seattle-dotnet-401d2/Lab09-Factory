@@ -6,6 +6,13 @@ namespace Product
 {
     public class References : Page
     {
-        public List<string> ContactInfo { get; set; }
+        private List<string> contactInfo = new List<string>();
+        public List<string> ContactInfo { get => contactInfo; set => contactInfo = value; }
+
+        public References(int pageNum)
+        {
+            PageNum = pageNum;
+            ContactInfo.Add("Andrea - Manager - v-anfrab@microsoft.com");
+        }
     }
 }

@@ -6,9 +6,9 @@ namespace Product
 {
     public abstract class Page
     {
-        public string Author { get; set; }
-        public DateTime DateCreated { get; set; }
-        public DateTime DateModified { get; set; }
+        public string Author { get; set; } = "Ariel Pedraza";
+        public DateTime DateCreated { get; set; } = DateTime.Today;
+        public DateTime DateModified { get; set; } = DateTime.Today;
         public int PageNum { get; set; }
 
         public void Print()

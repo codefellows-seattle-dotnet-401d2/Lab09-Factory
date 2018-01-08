@@ -1,0 +1,11 @@
+C:\Users\pedra\Documents\codefellows\401\Lab09-FactoryDesign\ResumeCreator\ResumeCreator\bin\Debug\netcoreapp2.0\ResumeCreator.deps.json
+C:\Users\pedra\Documents\codefellows\401\Lab09-FactoryDesign\ResumeCreator\ResumeCreator\bin\Debug\netcoreapp2.0\ResumeCreator.runtimeconfig.json
+C:\Users\pedra\Documents\codefellows\401\Lab09-FactoryDesign\ResumeCreator\ResumeCreator\bin\Debug\netcoreapp2.0\ResumeCreator.runtimeconfig.dev.json
+C:\Users\pedra\Documents\codefellows\401\Lab09-FactoryDesign\ResumeCreator\ResumeCreator\bin\Debug\netcoreapp2.0\ResumeCreator.dll
+C:\Users\pedra\Documents\codefellows\401\Lab09-FactoryDesign\ResumeCreator\ResumeCreator\bin\Debug\netcoreapp2.0\ResumeCreator.pdb
+C:\Users\pedra\Documents\codefellows\401\Lab09-FactoryDesign\ResumeCreator\ResumeCreator\obj\Debug\netcoreapp2.0\ResumeCreator.csprojResolveAssemblyReference.cache
+C:\Users\pedra\Documents\codefellows\401\Lab09-FactoryDesign\ResumeCreator\ResumeCreator\obj\Debug\netcoreapp2.0\ResumeCreator.csproj.CoreCompileInputs.cache
+C:\Users\pedra\Documents\codefellows\401\Lab09-FactoryDesign\ResumeCreator\ResumeCreator\obj\Debug\netcoreapp2.0\ResumeCreator.AssemblyInfoInputs.cache
+C:\Users\pedra\Documents\codefellows\401\Lab09-FactoryDesign\ResumeCreator\ResumeCreator\obj\Debug\netcoreapp2.0\ResumeCreator.AssemblyInfo.cs
+C:\Users\pedra\Documents\codefellows\401\Lab09-FactoryDesign\ResumeCreator\ResumeCreator\obj\Debug\netcoreapp2.0\ResumeCreator.dll
+C:\Users\pedra\Documents\codefellows\401\Lab09-FactoryDesign\ResumeCreator\ResumeCreator\obj\Debug\netcoreapp2.0\ResumeCreator.pdb
