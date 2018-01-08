@@ -6,9 +6,10 @@ namespace Product
 {
     public abstract class Page
     {
-        public string Size { get; set; }
-        public string Style { get; set; }
-        public string Weight { get; set; }
+        public string Author { get; set; }
+        public DateTime DateCreated { get; set; }
+        public DateTime DateModified { get; set; }
+        public int PageNum { get; set; }
 
         public void Print()
         {

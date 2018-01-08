@@ -6,6 +6,6 @@ namespace Product
 {
     public class References : Page
     {
-
+        public List<string> ContactInfo { get; set; }
     }
 }
